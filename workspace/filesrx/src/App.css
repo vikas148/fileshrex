@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.App {
+  border: 2px solid #FF5733;
+}
+
+form .upload {
+  margin-top: 19px;
+  margin-bottom: 20px;
+  color: #FF5733 ;
+}
+
+body{
+  background: url(https://img.freepik.com/free-vector/abstact-hexagon-background-memphis-style_1017-31955.jpg?t=st=1670144834~exp=1670145434~hmac=03e75e5ac8c4a90d79c3436a655aaf12c1feb9b4470dfb0ae7014ff10ba327bb);
+ background-repeat: no-repeat;
+  background-size: cover;
+}
